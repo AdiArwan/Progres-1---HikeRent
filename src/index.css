@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans bg-batik-background;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-batik-primary text-white py-2 px-4 rounded-lg hover:bg-opacity-90 transition-all;
+  }
+  
+  .card {
+    @apply bg-white shadow-md rounded-lg overflow-hidden;
+  }
+}
